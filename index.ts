@@ -61,11 +61,12 @@ const cluster = new eks.Cluster("my-cluster", {
 // First, create a node group for fixed compute.
 const fixedNodeGroup = cluster.createNodeGroup("my-cluster-ng1", {
   instanceType: "t2.medium",
-  desiredCapacity: 2,
+  desiredCapacity: 1,
   minSize: 1,
   maxSize: 3,
   labels: { ondemand: "true" },
   instanceProfile: instanceProfile1,
+  nodeAssociatePublicIpAddress: false,
 });
 
 // Now create a preemptible node group, using spot pricing, for our variable, ephemeral workloads.
@@ -76,7 +77,7 @@ const spotNodeGroup = new eks.NodeGroup(
     instanceType: "t2.medium",
     desiredCapacity: 0,
     spotPrice: "1",
-    minSize: 1,
+    minSize: 0,
     maxSize: 2,
     labels: { preemptible: "true" },
     taints: {
@@ -86,6 +87,7 @@ const spotNodeGroup = new eks.NodeGroup(
       },
     },
     instanceProfile: instanceProfile2,
+    nodeAssociatePublicIpAddress: false,
   },
   {
     providers: { kubernetes: cluster.provider },

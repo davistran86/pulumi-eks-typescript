@@ -67,7 +67,7 @@
   resolved "https://registry.yarnpkg.com/@protobufjs/utf8/-/utf8-1.1.0.tgz#a777360b5b39a1a2e5106f8e858f2fd2d060c570"
   integrity sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=
 
-"@pulumi/aws@^4.0.0", "@pulumi/aws@^4.15.0":
+"@pulumi/aws@^4.15.0", "@pulumi/aws@^4.25.0":
   version "4.25.0"
   resolved "https://registry.yarnpkg.com/@pulumi/aws/-/aws-4.25.0.tgz#bbdde77c65213a88029bf9a5f8d655a6a0c34891"
   integrity sha512-CcK1zc3Exv77QGxxsGatMv3tuY1dMAdzDDbb7MpHrPHwEx2mo2hi6SX9nSdXepeSw6eH1N2NQEJx7zbQnpun+A==
@@ -79,10 +79,10 @@
     read-package-tree "^5.2.1"
     resolve "^1.7.1"
 
-"@pulumi/awsx@^0.30.0":
-  version "0.30.0"
-  resolved "https://registry.yarnpkg.com/@pulumi/awsx/-/awsx-0.30.0.tgz#cbab6f745aa09ee7179880c99149f2d17c2e7b19"
-  integrity sha512-QtYVDFSkZxJ/JkAxaSwms9i/tJU2rA9F/VncCN6e8D0r29C5t4eYQhmB4chsLww9AjWJPRM7CXosDJs8+gy1Zg==
+"@pulumi/awsx@^0.32.0":
+  version "0.32.0"
+  resolved "https://registry.yarnpkg.com/@pulumi/awsx/-/awsx-0.32.0.tgz#9c386b8895a6bd97f6a38401d4c7ef0fa23cf1a5"
+  integrity sha512-/BMtbO9X9n5BxZGQQk/R3jQwjUJtlK4xAaWKTMLV/xDvtoGXyUPUZOOig4z3M4+ZQLA/2nBreUNVnppOfab2zw==
   dependencies:
     "@pulumi/docker" "^3.0.0"
     "@types/aws-lambda" "^8.10.23"
@@ -111,9 +111,9 @@
     which "^1.3.1"
 
 "@pulumi/kubernetes@^3.0.0":
-  version "3.8.2"
-  resolved "https://registry.yarnpkg.com/@pulumi/kubernetes/-/kubernetes-3.8.2.tgz#3d10843b4bcb6e44c1564aac89dc11b4cfae172b"
-  integrity sha512-bmQhXAGg6n3yU03rMQyypg7gwnDxP9fSbV4+l5/H8eBZDrVdrba5ysfJ9Ww76HfFyOT275ahXJKsQFJ1pIpzyw==
+  version "3.8.3"
+  resolved "https://registry.yarnpkg.com/@pulumi/kubernetes/-/kubernetes-3.8.3.tgz#b9bb51c875d83e0d6cec8f7dfeba8d0fa87845d8"
+  integrity sha512-YK1g41mtiFIVe8UeuiKg6Ao7OF3wmTDPD/nSnLzxPFNjWcSH0xfOLnu70AaDJoI05pvaIh4WEQS5fAthvRwJxA==
   dependencies:
     "@pulumi/pulumi" "^3.0.0"
     "@types/glob" "^5.0.35"
@@ -124,7 +124,7 @@
     shell-quote "^1.6.1"
     tmp "^0.0.33"
 
-"@pulumi/pulumi@^3.0.0":
+"@pulumi/pulumi@^3.0.0", "@pulumi/pulumi@^3.16.0":
   version "3.16.0"
   resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.16.0.tgz#08ac7fa655477c100d56c15e7692dea7649eff3f"
   integrity sha512-pAZE/sLHg9xZ01H7pACi6STNwyg4A0ZhR9SK9lrRKgaJt30j8K855AhurXB0/3jVN7Y9dIbbSir70XKRDNKHOg==
@@ -151,9 +151,9 @@
   integrity sha512-xfo+yLRM2zVjVEA4p23IjQWzyWl1ZhWOGobsBqRpIarzLvwNH/RAGaoehdxlhx4X92302DrpdIFgTICMN4P38w==
 
 "@types/aws-lambda@^8.10.23":
-  version "8.10.84"
-  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.84.tgz#b1f391ceeb6908b28d8416d93f27afe8d1348d4e"
-  integrity sha512-5V78eLtmN0d4RA14hKDwcsMQRl3JotQJlhGFDBo/jdE2TyDFRaYwB/UmMUC4SzhSvRGn+YMkh7jGPnXi8COAng==
+  version "8.10.85"
+  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.85.tgz#26cd76897b1972247cbc1a34b6f21d023e987437"
+  integrity sha512-cMRXVxb+NMb6EekKel1fPBfz2ZqE5cGhIS14G7FVUM4Bqilx0lHKnZbsDLWLSeckDpkvlp5six2F7UWyEEJSoQ==
 
 "@types/glob@^5.0.35":
   version "5.0.37"
@@ -182,14 +182,14 @@
     form-data "^3.0.0"
 
 "@types/node@*", "@types/node@>=12.12.47", "@types/node@>=13.7.0":
-  version "16.11.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.4.tgz#90771124822d6663814f7c1c9b45a6654d8fd964"
-  integrity sha512-TMgXmy0v2xWyuCSCJM6NCna2snndD8yvQF67J29ipdzMcsPa9u+o0tjF5+EQNdhcuZplYuouYqpc4zcd5I6amQ==
+  version "16.11.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.11.6.tgz#6bef7a2a0ad684cf6e90fcfe31cecabd9ce0a3ae"
+  integrity sha512-ua7PgUoeQFjmWPcoo9khiPum3Pd60k4/2ZGXt18sm2Slk0W0xZTqt5Y0Ny1NyBiN1EVQ/+FaF9NcY4Qe6rwk5w==
 
 "@types/node@^14":
-  version "14.17.29"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.29.tgz#44a774fa2858efa4d039dd9051b51160e8295c70"
-  integrity sha512-sd4CHI9eTJXTH2vF3RGtGkqvWRwhsSSUFsXD4oG38GZzSZ0tNPbWikd2AbOAcKxCXhOg57fL8FPxjpfSzb2pIQ==
+  version "14.17.32"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.17.32.tgz#2ca61c9ef8c77f6fa1733be9e623ceb0d372ad96"
+  integrity sha512-JcII3D5/OapPGx+eJ+Ik1SQGyt6WvuqdRfh9jUwL6/iHGjmyOriBDciBUu7lEIBTL2ijxwrR70WUnw5AEDmFvQ==
 
 "@types/tmp@^0.0.33":
   version "0.0.33"
@@ -226,9 +226,9 @@ asynckit@^0.4.0:
   integrity sha1-x57Zf380y48robyXkLzDZkdLS3k=
 
 aws-sdk@^2.0.0:
-  version "2.1013.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1013.0.tgz#85babc473b0bc90cc1160eb48baf616ddb86e346"
-  integrity sha512-TXxkp/meAdofpC15goFpNuur7fvh/mcMRfHJoP1jYzTtD0wcoB4FK16GLcny0uDYgkQgZuiO9QYv3Rq5bhGCqQ==
+  version "2.1019.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1019.0.tgz#3859bcadcabc02aa7c663ee3aca42eb1345c8251"
+  integrity sha512-mnL9CROb3JHdAIbwjy0yr7Lj76KVA8+LyDFexIq/J/YtjbqdfEsb/KdeQIGEBCdlOqUrcJmeD0GcklZ4ve6fnQ==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -387,9 +387,9 @@ events@1.1.1:
   integrity sha1-nr23Y1rQmccNzEwqH1AEKI6L2SQ=
 
 follow-redirects@^1.14.0:
-  version "1.14.4"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.4.tgz#838fdf48a8bbdd79e52ee51fb1c94e3ed98b9379"
-  integrity sha512-zwGkiSXC1MUJG/qmeIFH2HBJx9u0V46QGUe3YR1fXG8bXQxq7fLj0RjLZQ5nubr9qNJUZrH+xUcwXEoXNpfS+g==
+  version "1.14.5"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.5.tgz#f09a5848981d3c772b5392309778523f8d85c381"
+  integrity sha512-wtphSXy7d4/OR+MvIFbCVBDzZ5520qV8XfPklSN5QtxuMUJZ+b0Wnst1e1lCDocfzuCkHqj8k0FpZqO+UIaKNA==
 
 form-data@^3.0.0:
   version "3.0.1"
@@ -440,9 +440,9 @@ glob@^7.1.1, glob@^7.1.2:
     path-is-absolute "^1.0.0"
 
 google-protobuf@^3.5.0:
-  version "3.19.0"
-  resolved "https://registry.yarnpkg.com/google-protobuf/-/google-protobuf-3.19.0.tgz#97f474323c92f19fd6737af1bb792e396991e0b8"
-  integrity sha512-qXGAiv3OOlaJXJNeKOBKxbBAwjsxzhx+12ZdKOkZTsqsRkyiQRmr/nBkAkqnuQ8cmA9X5NVXvObQTpHVnXE2DQ==
+  version "3.19.1"
+  resolved "https://registry.yarnpkg.com/google-protobuf/-/google-protobuf-3.19.1.tgz#5af5390e8206c446d8f49febaffd4b7f4ac28f41"
+  integrity sha512-Isv1RlNC+IzZzilcxnlVSf+JvuhxmY7DaxYCBy+zPS9XVuJRtlTTIXR9hnZ1YL1MMusJn/7eSy2swCzZIomQSg==
 
 graceful-fs@^4.1.2:
   version "4.2.8"
@@ -683,9 +683,9 @@ netmask@^2.0.1:
   integrity sha512-dBpDMdxv9Irdq66304OLfEmQ9tbNRFnFTuZiLo+bD+r332bBmMJ8GBLXklIXXgxd3+v9+KUnZaUR5PJMa75Gsg==
 
 node-fetch@^2.3.0:
-  version "2.6.5"
-  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.5.tgz#42735537d7f080a7e5f78b6c549b7146be1742fd"
-  integrity sha512-mmlIVHJEu5rnIxgEgez6b9GgWXbkZj5YZ7fx+2r94a2E+Uirsp6HsPTPlomfdHtpt/B0cdKviwkoaM6pyvUOpQ==
+  version "2.6.6"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.6.tgz#1751a7c01834e8e1697758732e9efb6eeadfaf89"
+  integrity sha512-Z8/6vRlTUChSdIgMa51jxQ4lrw/Jy5SOW10ObaA47/RElsAN2c5Pn8bTgFGWn/ibwzXTE8qwr1Yzx28vsecXEA==
   dependencies:
     whatwg-url "^5.0.0"
 
